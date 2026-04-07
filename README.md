@@ -1,16 +1,38 @@
-# React + Vite
+# 🔗 Encurtador de URL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém uma aplicação desenvolvida com Node.js e React que permite encurtar URLs de forma rápida e simples.
 
-Currently, two official plugins are available:
+Com uma interface intuitiva, basta colar uma URL longa e a aplicação retorna um link encurtado pronto para uso.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Como executar o projeto
 
-## React Compiler
+Para executar o projeto localmente, é necessário gerar um token de acesso para utilizar a API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A aplicação utiliza a API do TinyURL. Você pode gerar seu token e acessar a documentação oficial no link abaixo:
 
-## Expanding the ESLint configuration
+ 👉 https://tinyurl.com/app/dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Passo a passo
+1. Clone este repositório:
+    ```bash
+    git clone https://github.com/vnicus/encurtador-url
+1. Acesse a pasta do projeto:
+    ```bash
+    cd encurtador-url
+1. Instale as dependências:
+    ```bash
+    npm install
+1. Configure a variável de ambiente:
+Crie um arquivo .env na raiz do projeto e adicione seu token:
+    ```bash
+    VITE_TOKEN_TINYURL=seu_token_aqui
+1. Execute o projeto:
+    ```bash
+    npm run dev
+## 🛠️ Tecnologias utilizadas
+- Node.js
+- React
+- JavaScript
+- PrimeReact
+- Tailwind CSS
+- Vite
